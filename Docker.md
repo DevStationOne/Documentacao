@@ -45,13 +45,14 @@ Ficar atento ao CONTAINER ID que você acabou de criar, copiar esse mesmo CONTAI
 Executando o container
 
 ```
-docker exec -it CONTAINER ID bash
+docker exec -it container_id bash
 ```
 
-Entrando no MySQL
+Entrando no MySQL de forma manual
 
 ```
-psql -U mysql 
+mysql -uroot -p
+Enter password: root
 ```
 
 Executar alguma instrução SQL caso necessário
