@@ -31,7 +31,7 @@ Criando o Container
 
 
 ```
-docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=definir_nome_da_base -e MYSQL_USER=seu_user -e MYSQL_PASSWORD=definir_senha base_que_sera_criada-db
+ docker run mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_USER=root -e MYSQL_PASSWORD=root bomsabor-db
 ```
 
 Verificando os Containers existentes
